@@ -4,4 +4,37 @@ main {
     padding: 50px 30px;
 }
 
+*{
+    background-color: rgb(250, 238, 224);
+    color: black;
+    font-family: sans-serif;
+}
+/*Home Page*/
+#ryanPhoto {
+    max-width: 35%;
+    max-height: auto;
+    min-width: 35%;
+}
+#homeName{
+    font-size: 60px;
+}
 
+.main-content{
+    float:right
+}
+
+/*About me*/
+#redPic{
+    max-width: 25%;
+}
+#redBio{
+    float: left;
+}
+
+#remPic {
+    max-width: 25%;
+    float: right;
+}
+#remBio{
+    float: right;
+}
