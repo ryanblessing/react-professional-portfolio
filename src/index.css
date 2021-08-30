@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+main {
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 50px 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+    background-color: rgb(250, 238, 224);
+    color: black;
+    font-family: sans-serif;
+}
+/*Home Page*/
+#ryanPhoto {
+    max-width: 35%;
+    max-height: auto;
+    min-width: 35%;
+}
+#homeName{
+    font-size: 60px;
+}
+
+.main-content{
+    float:right
+}
+
+/*About me*/
+#redPic{
+    max-width: 25%;
+}
+#redBio{
+    float: left;
+}
+
+#remPic {
+    max-width: 25%;
+    float: right;
+}
+#remBio{
+    float: right;
 }
