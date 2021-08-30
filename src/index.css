@@ -24,6 +24,10 @@ main {
 }
 
 /*About me*/
+#failPic{
+   position: right;
+   max-width: 25%; 
+}
 #redPic{
     max-width: 25%;
 }

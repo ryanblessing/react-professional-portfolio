@@ -1,6 +1,7 @@
 import React from 'react'
 import redDog from '../../assets/photos/red.JPG';
 import remyDog from '../../assets/photos/remyDog.JPG'
+import failure from '../../assets/photos/failure.jpg'
 
 const About = () => {
     return (
@@ -9,6 +10,9 @@ const About = () => {
            <main>
                <h1>About Me</h1>
                    <div>
+                       <div className="row">
+                       <img src={failure} id="failPic" alt='fail/succeed' className="" />
+                       
                        <p>My journey into the world of coding comes from a lot of failures, but having the ability to constantly look for the lessons learned within those failures.</p>
                        <p>Growing up I have gone into different careers in all different types of forms such as:
                            <ul>
@@ -23,6 +27,7 @@ const About = () => {
                        <p>Withing all of there I found one thing to be true, It was never enough for me to feel accomplished. I learned a lot, and how to deal with different types of situations, 
                            but never fully satisfied with myself. That was when I started looking outside the box.
                         </p>
+                        </div>
                    </div>
                   <section>
                       <div>
