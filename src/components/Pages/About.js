@@ -8,7 +8,7 @@ const About = () => {
        <section className="container-fluid">
            <div>
            <main>
-               <h1>About Me</h1>
+               <h1 className="display-3 text-center">About Me</h1>
                    <div>
                        <div className="row">
                        <img src={failure} id="failPic" alt='fail/succeed' className="" />

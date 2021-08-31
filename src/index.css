@@ -42,3 +42,25 @@ main {
 #remBio{
     float: right;
 }
+
+/*project picture*/
+.projectHead{
+    align-items: center;
+    padding:1px;
+    margin: 1px
+}
+#cardImg{
+    image-rendering: auto;
+}
+#easyLinkPic{
+    width: 15%;
+}
+
+/*contact*/
+#contactPhoto{
+    margin-left: 20%;
+}
+
+#contact-form{
+    border: 3px;
+}
