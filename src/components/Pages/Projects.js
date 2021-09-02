@@ -2,6 +2,7 @@ import React from 'react'
 import runBuddy from '../../assets/photos/hero-bg.jpg';
 import easyLink from '../../assets/photos/easyLink.png';
 import top5 from '../../assets/photos/profilePic.png'
+import grillPic from '../../assets/photos/grill.jpg'
 
 const Projects = () => {
 
@@ -17,9 +18,14 @@ const Projects = () => {
                         <div className="card col-4 rounded" style={{width:"35%"}} > 
                         <img src={runBuddy} alt="runBuddy" className="cardImg"/>                       
                             <div className="card-body">
-                                <h5 className="card-title ">Run Buddy</h5>
+                                <h5 className="card-title "><ins>Run Buddy</ins></h5>
                                 <p className="card-text">Run buddy is a application that puts you
                                 in touch with a fitness trainer, to help you achieve your fitness goals.</p>
+                                <ul>
+                                    <p>This Project was Created while using front end technologies such as:</p>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                </ul>
                                 <a href="https://ryanblessing-35e74d648e.drafts.github.io/Run-Buddy/">Link here!</a>
                             </div>                           
                         </div>
@@ -27,10 +33,17 @@ const Projects = () => {
                         <div className="card" style={{width: "100%"}} >
                             <img src={easyLink} alt="easyLink" id="EasyLinkPic"/>
                                 <div className="card-body">
-                                    <h5 className="card-title">Easy Link</h5>
+                                    <h5 className="card-title"><ins>Easy Link</ins></h5>
                                     <p className="card-text">Easy Link was a group project I was apart of, thats purpose was to connect people to 
                                     other like-minded people. Helping them find new spots for food, drinks and entertainment. This is just the baseline of the App,
                                     and Future development is key for this to become a successful social networking system!</p>
+                                    <ul>
+                                        <p>In Easy-Link we used languages such as:</p>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>API's</li>
+                                    </ul>
                                     <a href="https://ryanblessing.github.io/Group-project-1/">Link here!</a>
                                 </div>
                         </div>                
@@ -43,7 +56,7 @@ const Projects = () => {
                         <div className="card col-4 rounded" style={{width:"35%"}} > 
                         <img src={top5} alt="" className="cardImg"/>                       
                             <div className="card-body">
-                                <h5 className="card-title ">Top-5</h5>
+                                <h5 className="card-title "><ins>Top-5</ins></h5>
                                 <p className="card-text">Top 5 is a social media app that allows Users to create a Username, with a password.
                                 Have there own personal page, and create a list of there Top 5 In any category they want! This app would be a vital
                                 part of any company that makes suggestions. Example:</p>
@@ -54,18 +67,29 @@ const Projects = () => {
                                     <li>Expedia</li>
                                 </ul>
                                 <p>Any company that sells anything, WILL want to be a part of this App. </p>
+
                                 <a href="https://top-5-list.herokuapp.com/login">Link here!</a>
                             </div>                           
                         </div>
                     <div className="card col-4 rounded "  >
                         <div className="card" style={{width: "100%"}} >
-                            <img src={easyLink} alt="easyLink" id="EasyLinkPic"/>
+                            <img src={grillPic} alt="food-festival" id="foodFest"/>
                                 <div className="card-body">
-                                    <h5 className="card-title">Easy Link</h5>
-                                    <p className="card-text">Easy Link was a group project I was apart of, thats purpose was to connect people to 
-                                    other like-minded people. Helping them find new spots for food, drinks and entertainment. This is just the baseline of the App,
-                                    and Future development is key for this to become a successful social networking system!</p>
-                                    <a href="https://ryanblessing.github.io/Group-project-1/">Link here!</a>
+                                    <h5 className="card-title"><ins>Food Festival</ins></h5>
+                                    <p className="card-text">Food Festival is a app that sold tickets to customers for a food event! Within this App
+                                    you could sign up using your email, buy tickets and checkout there personalized calender to see what there schedule was!
+                                    This fun little project helped me get use to working with Web-Packs, and service workers.</p>
+                                    <ul>
+                                        <p>Top 5 was my first Test at a full on application, In this we used:</p>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>Express.js</li>
+                                            <li>MySql</li>
+                                            <li>Node</li>
+                                            <li>Object Relational Mapping</li>
+                                    </ul>
+                                    <a href="https://ryanblessing.github.io/Food-Festival/">Link here!</a>
                                 </div>
                         </div>                
                     </div>

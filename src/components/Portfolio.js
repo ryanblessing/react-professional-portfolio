@@ -4,9 +4,11 @@ import About from './Pages/About.js';
 import Contact from './Pages/Contact.js';
 import Projects from './Pages/Projects.js';
 import Home from './Pages/Home.js';
+import Footer from './Footer';
 
 function Portfolio() {
     const [currentPage, handlePageChange] = useState('Home');
+
 
     const renderPage = () => {
         // Add a switch statement that will return the appropriate component of the 'currentPage'
@@ -30,6 +32,7 @@ function Portfolio() {
             <div>
                 {renderPage(currentPage)}
             </div>
+            <Footer/>
         </div>
     )
 }

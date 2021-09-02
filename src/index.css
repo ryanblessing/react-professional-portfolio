@@ -1,3 +1,4 @@
+
 main {
     margin: 0 auto;
     max-width: 90%;
@@ -5,9 +6,15 @@ main {
 }
 
 *{
-    background-color: rgb(250, 238, 224);
+    background-color: rgb(255, 255, 255);
     color: black;
     font-family: sans-serif;
+}
+
+/*nav bar*/
+#nav, #tabs{
+    background-color: rgb(118, 228, 255);
+    font-style: italic;
 }
 /*Home Page*/
 #ryanPhoto {
@@ -58,9 +65,34 @@ main {
 
 /*contact*/
 #contactPhoto{
-    margin-left: 20%;
+    float: left;
 }
 
 #contact-form{
     border: 3px;
+    float: inline-end;
 }
+
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
