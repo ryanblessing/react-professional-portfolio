@@ -11,10 +11,10 @@ const About = () => {
                <h1 className="display-3 text-center">About Me</h1>
                    <div>
                        <div className="row">
-                       <img src={failure} id="failPic" alt='fail/succeed' className="" />
+                       <img src={failure} id="failPic" alt='fail/succeed'/>
                        
-                       <p>My journey into the world of coding comes from a lot of failures, but having the ability to constantly look for the lessons learned within those failures.</p>
-                       <p>Growing up I have gone into different careers in all different types of forms such as:
+                       <p>My journey into the world of coding comes from a lot of failures, but having the ability to constantly look for the lessons learned within those failures.
+                       Growing up I have gone into different careers in all different types of forms such as:
                            <ul>
                                <li>Bartender</li>
                                <li>Assistant Restaurant Manager</li>
@@ -32,7 +32,7 @@ const About = () => {
                   <section>
                       <div>
                           <h3>My coding start</h3>
-                          <p>At this point in my life I was looking for answers, I wanted a Career that was challenging, evolving, and made a difference. I found that career with coding.</p>
+                          <p>   At this point in my life I was looking for answers, I wanted a Career that was challenging, evolving, and made a difference. I found that career with coding.</p>
                           <p>Through web development I have found the ability to reach people on multiple levels and apply my skill and knowledge to help make those peoples dreams a reality!
                               I can help a small business set up online web ordering, with a backend capable of keeping there clients information stored safely for future orders. I can help kickstart
                               the next big "facebook" or "instagram" with a team of the right people and give the next generation something to connect with. I can help build amd design anything in the world, and this 

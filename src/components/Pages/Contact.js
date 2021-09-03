@@ -2,6 +2,7 @@
 import React from "react"; 
 import contactPhoto from "../../assets/photos/contact-page.jpg"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from "../Footer";
 
 
 
@@ -15,10 +16,6 @@ function Contact(){
                 </div>
             </div>
             <div className="col" id="contact-form">
-            <div classNAme="d-grid gap-2">
-                    <a className="btn btn-success" href="https://github.com/ryanblessing" type="button">GitHub</a>
-                    <a className="btn btn-success" href="https://www.linkedin.com/in/ryan-blessing89/" type="button">linkedIn</a>
-                    </div>
             <form className="container-sm"> 
                 <div className="mb-2">
                     <label for="formControl" className="form-label">Email Address:</label>

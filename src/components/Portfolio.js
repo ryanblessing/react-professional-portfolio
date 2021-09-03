@@ -6,6 +6,7 @@ import Projects from './Pages/Projects.js';
 import Home from './Pages/Home.js';
 import Footer from './Footer';
 
+
 function Portfolio() {
     const [currentPage, handlePageChange] = useState('Home');
 
@@ -34,6 +35,7 @@ function Portfolio() {
             </div>
             <Footer/>
         </div>
+        
     )
 }
 

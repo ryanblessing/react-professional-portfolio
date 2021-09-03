@@ -3,9 +3,9 @@ import React from 'react'
 const nav = (props) => {
     const tabs = ['Home', 'About', 'Contact', 'Projects']
     return (
-        <ul className="nav nav-pills mb-3 justify-content-around" id="nav">
+        <ul className="nav nav-pills text-white mb-3 justify-content-around" id="nav">
             {tabs.map(tab => (
-                <li className="nav-item" id="tabs" key={tab}>
+                <li className="nav-item text-white " id="tabs" key={tab}>
                     <a
                     href={'#' + tab.toLowerCase()}
                     // Whenever a tab is clicked on,
