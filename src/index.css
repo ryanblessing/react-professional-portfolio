@@ -12,11 +12,15 @@ main {
     font-size: medium;
 }
 
-h1 {
+link{
+    color: white;
+}
+
+h1  {
     font-family: 'merienda';
 }
 
-h5 {
+h5, h4, h3 {
     text-align: center;
     font-family: 'merienda';
 }
@@ -50,10 +54,11 @@ h5 {
    left: 37%;
 }
 #redPic{
+    float:left;
     max-width: 25%;
 }
 #redBio{
-    float: left;
+    float: right;
 }
 
 #remPic {
