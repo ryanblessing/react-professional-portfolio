@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/react-professional-portfolio/static/css/main.23bd989b.chunk.css",
+    "main.js": "/react-professional-portfolio/static/js/main.0f870aba.chunk.js",
+    "main.js.map": "/react-professional-portfolio/static/js/main.0f870aba.chunk.js.map",
+    "runtime-main.js": "/react-professional-portfolio/static/js/runtime-main.226514ab.js",
+    "runtime-main.js.map": "/react-professional-portfolio/static/js/runtime-main.226514ab.js.map",
+    "static/css/2.818011ed.chunk.css": "/react-professional-portfolio/static/css/2.818011ed.chunk.css",
+    "static/js/2.09e1b1e8.chunk.js": "/react-professional-portfolio/static/js/2.09e1b1e8.chunk.js",
+    "static/js/2.09e1b1e8.chunk.js.map": "/react-professional-portfolio/static/js/2.09e1b1e8.chunk.js.map",
+    "static/js/3.8126d76b.chunk.js": "/react-professional-portfolio/static/js/3.8126d76b.chunk.js",
+    "static/js/3.8126d76b.chunk.js.map": "/react-professional-portfolio/static/js/3.8126d76b.chunk.js.map",
+    "index.html": "/react-professional-portfolio/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/react-professional-portfolio/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.23bd989b.chunk.css.map": "/react-professional-portfolio/static/css/main.23bd989b.chunk.css.map",
+    "static/js/2.09e1b1e8.chunk.js.LICENSE.txt": "/react-professional-portfolio/static/js/2.09e1b1e8.chunk.js.LICENSE.txt",
+    "static/media/contact-page.65504b0b.jpg": "/react-professional-portfolio/static/media/contact-page.65504b0b.jpg",
+    "static/media/easyLink.a1262768.png": "/react-professional-portfolio/static/media/easyLink.a1262768.png",
+    "static/media/failure.304a4bdc.jpg": "/react-professional-portfolio/static/media/failure.304a4bdc.jpg",
+    "static/media/grill.c441073a.jpg": "/react-professional-portfolio/static/media/grill.c441073a.jpg",
+    "static/media/hero-bg.8a288c26.jpg": "/react-professional-portfolio/static/media/hero-bg.8a288c26.jpg",
+    "static/media/profilePic.ab956aa5.png": "/react-professional-portfolio/static/media/profilePic.ab956aa5.png",
+    "static/media/red.96a5dea5.JPG": "/react-professional-portfolio/static/media/red.96a5dea5.JPG",
+    "static/media/remyDog.63c86218.JPG": "/react-professional-portfolio/static/media/remyDog.63c86218.JPG",
+    "static/media/ryan.c1d4646e.JPG": "/react-professional-portfolio/static/media/ryan.c1d4646e.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.226514ab.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.09e1b1e8.chunk.js",
+    "static/css/main.23bd989b.chunk.css",
+    "static/js/main.0f870aba.chunk.js"
+  ]
+}
