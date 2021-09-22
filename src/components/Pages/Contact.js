@@ -2,7 +2,7 @@
 import React from "react"; 
 import contactPhoto from "../../assets/photos/contact-page.jpg"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from "../Footer";
+
 
 
 

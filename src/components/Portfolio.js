@@ -33,7 +33,9 @@ function Portfolio() {
             <div>
                 {renderPage(currentPage)}
             </div>
-            <Footer/>
+            <div>
+                <Footer/>
+            </div>
         </div>
         
     )
