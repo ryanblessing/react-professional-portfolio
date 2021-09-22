@@ -17,21 +17,6 @@ const Footer = () => {
             </nav>
 
             </footer>
-            {/* <footer className="navbar navbar-expand-md justify-content-around" id="footerStyle">
-                <div id="logo">
-                    <ul className="nav-items" id="logo" > 
-                        <a className="btn" href="https://github.com/ryanblessing" type="button"><ion-icon size="large" name="logo-github"></ion-icon></a>  
-                    </ul>
-                </div>
-                <div id="logo">
-                    <ul id="logo">
-                       <a className="btn" href="https://www.linkedin.com/in/ryan-blessing89/"><ion-icon size="large" name="logo-linkedin"></ion-icon></a>
-                    </ul>
-                </div>
-                <div id="logo">
-                    <p id="logo">@2021 by Ryan</p>
-                </div>
-            </footer>  */}
         </div>
     )
 }

@@ -2,7 +2,8 @@ import React from 'react'
 import runBuddy from '../../assets/photos/hero-bg.jpg';
 import easyLink from '../../assets/photos/easyLink.png';
 import top5 from '../../assets/photos/profilePic.png'
-import grillPic from '../../assets/photos/grill.jpg'
+import grillPic from '../../assets/photos/grill.jpg';
+import oneStop from '../../assets/photos/1stop.png'
 
 const Projects = () => {
 
@@ -98,6 +99,23 @@ const Projects = () => {
                                     </ul>
                                   
                                     <a href="https://ryanblessing.github.io/Food-Festival/">Link here!</a>
+                                </div>                                      
+                    </div>
+                    <div className="card col-4 rounded " style={{width: "40%"}}   >                       
+                            <img src={oneStop} alt="print-shop" id="foodFest"/>
+                                <div className="card-body">
+                                    <h5 className="card-title">One Stop Print Shop</h5>
+                                    <p className="card-text">One shop print shop is a e-commerce site built for anyone to buy banners for any occasion! We have custom built banners or 
+                                    a seeded website for banners that are created before hand!</p>
+                                    <ul>
+                                        <p>The technologies we used for this application are such:</p>
+                                            <li>MERN Stack</li>
+                                            <li>Graph QL</li>
+                                            <li>Context API</li>
+                                            <li>Stripe Api</li>
+                                    </ul>
+                                  
+                                    <a href="https://one-stop-print-shop.herokuapp.com/">Link here!</a>
                                 </div>                                      
                     </div>
                 </div>
